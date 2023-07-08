@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1de118c01cd375348bc5b06db5d3937a, type: 3}
   m_Name: "S\u1EA3n Ph\u1EA9m"
   m_EditorClassIdentifier: 
+  name: 
+  infor: 
+  folderPath: Assets/App6
   SanPham:
   - ID: 0
     anh: {fileID: 21300000, guid: 64693b52c4e0b7b46b6d5a7d3364fa09, type: 3}
@@ -53,5 +56,68 @@ MonoBehaviour:
     anhHai: {fileID: 0}
     thongTin: 
     gia: "200.000 \u0111"
+    name: "Y\u1EBFn \u0110\xE1 (\u0110\u1EA3o) Tinh Ch\u1EBF Th\u01B0\u1EE3ng H\u1EA1ng
+      Lo\u1EA1i 50g"
+  - ID: 6
+    anh: {fileID: 21300000, guid: 8ae84b0a966d36842a52daa0ab09e0f4, type: 3}
+    anhHai: {fileID: 0}
+    thongTin: 
+    gia: "1.000.000 \u0111"
+    name: "Y\u1EBFn \u0110\xE1 (\u0110\u1EA3o) Tinh Ch\u1EBF Th\u01B0\u1EE3ng H\u1EA1ng
+      Lo\u1EA1i 50g"
+  - ID: 7
+    anh: {fileID: 21300000, guid: 55675b08640e8fd4294acd6a4f55d5a5, type: 3}
+    anhHai: {fileID: 0}
+    thongTin: 
+    gia: "400.000 \u0111"
+    name: "Y\u1EBFn \u0110\xE1 (\u0110\u1EA3o) Tinh Ch\u1EBF Th\u01B0\u1EE3ng H\u1EA1ng
+      Lo\u1EA1i 50g"
+  - ID: 8
+    anh: {fileID: 21300000, guid: 807df573690a3484ca1d811c2419e95a, type: 3}
+    anhHai: {fileID: 0}
+    thongTin: 
+    gia: "480.000 \u0111"
+    name: "Y\u1EBFn \u0110\xE1 (\u0110\u1EA3o) Tinh Ch\u1EBF Th\u01B0\u1EE3ng H\u1EA1ng
+      Lo\u1EA1i 50g"
+  - ID: 9
+    anh: {fileID: 21300000, guid: bbc5f708068c33b42a3b4183d0f75063, type: 3}
+    anhHai: {fileID: 0}
+    thongTin: 
+    gia: "12.000.000 \u0111"
+    name: "Y\u1EBFn \u0110\xE1 (\u0110\u1EA3o) Tinh Ch\u1EBF Th\u01B0\u1EE3ng H\u1EA1ng
+      Lo\u1EA1i 50g"
+  - ID: 10
+    anh: {fileID: 21300000, guid: a66b4b0db4242e64f8a1440b350b9081, type: 3}
+    anhHai: {fileID: 0}
+    thongTin: 
+    gia: "290.000 \u0111"
+    name: "Y\u1EBFn \u0110\xE1 (\u0110\u1EA3o) Tinh Ch\u1EBF Th\u01B0\u1EE3ng H\u1EA1ng
+      Lo\u1EA1i 50g"
+  - ID: 11
+    anh: {fileID: 21300000, guid: bbf1690a1d04b534aa78c702cd98df60, type: 3}
+    anhHai: {fileID: 0}
+    thongTin: 
+    gia: "630.000 \u0111"
+    name: "Y\u1EBFn \u0110\xE1 (\u0110\u1EA3o) Tinh Ch\u1EBF Th\u01B0\u1EE3ng H\u1EA1ng
+      Lo\u1EA1i 50g"
+  - ID: 12
+    anh: {fileID: 21300000, guid: 4fae55537547be444a3f1a239f98f81b, type: 3}
+    anhHai: {fileID: 0}
+    thongTin: 
+    gia: "12.000.000 \u0111"
+    name: "Y\u1EBFn \u0110\xE1 (\u0110\u1EA3o) Tinh Ch\u1EBF Th\u01B0\u1EE3ng H\u1EA1ng
+      Lo\u1EA1i 50g"
+  - ID: 13
+    anh: {fileID: 21300000, guid: 2e37674639f91a74891f92d08578ed1e, type: 3}
+    anhHai: {fileID: 0}
+    thongTin: 
+    gia: "12.000.000 \u0111"
+    name: "Y\u1EBFn \u0110\xE1 (\u0110\u1EA3o) Tinh Ch\u1EBF Th\u01B0\u1EE3ng H\u1EA1ng
+      Lo\u1EA1i 50g"
+  - ID: 14
+    anh: {fileID: 21300000, guid: 22052db377ba0bf4997c83a8c439e6f0, type: 3}
+    anhHai: {fileID: 0}
+    thongTin: 
+    gia: "830.000 \u0111"
     name: "Y\u1EBFn \u0110\xE1 (\u0110\u1EA3o) Tinh Ch\u1EBF Th\u01B0\u1EE3ng H\u1EA1ng
       Lo\u1EA1i 50g"

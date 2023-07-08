@@ -10,11 +10,12 @@ public class DonHang : SanPham
 [Serializable]
 public class SanPham
 {
-    [HideInInspector] public string thongTin;
-    [HideInInspector] public string gia;
-    [HideInInspector] public string name;
     public int ID;
     public Sprite anh;
-    [HideInInspector] public Sprite anhHai;
-   
+    public Sprite anhHai;
+    public string thongTin;
+    public string gia;
+    public string name;
 }
+
+

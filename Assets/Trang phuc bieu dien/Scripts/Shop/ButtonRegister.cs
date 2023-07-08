@@ -15,16 +15,22 @@ public class ButtonRegister : MonoBehaviour
         TextMeshProUgui = GetComponentInChildren<TextMeshProUGUI>();
         button = GetComponentInChildren<Button>();
     }
-//////////////////////
+
+    void Start()
+    {
+        button.onClick.AddListener(Choose);
+
+        SetTextDay();
+    }
 
     private void SetTextDay()
     {
         switch (number)
-        {//////////////////////
+        {
             case 1:
                 TextMeshProUgui.SetText("1 ngày");
                 break;
-            case 2://////////////////////
+            case 2:
                 TextMeshProUgui.SetText("7 ngày");
                 break;
             case 3:
@@ -37,13 +43,6 @@ public class ButtonRegister : MonoBehaviour
                 TextMeshProUgui.SetText("180 ngày");
                 break;
         }
-    }//////////////////////
-
-    void Start()
-    {
-        button.onClick.AddListener(Choose);
-
-        SetTextDay();
     }
 
     private void Choose()

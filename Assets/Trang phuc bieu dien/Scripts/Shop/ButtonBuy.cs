@@ -8,7 +8,15 @@ public class ButtonBuy : MonoBehaviour
 {
     public static int buyID = -1;
     
-   
+    public int number;
+    public TextMeshProUGUI TextMeshProUgui;
+    public Button button;
+
+    void OnValidate()
+    {
+        TextMeshProUgui = GetComponentInChildren<TextMeshProUGUI>();
+        button = GetComponentInChildren<Button>();
+    }
 
     void Start()
     {
@@ -24,15 +32,5 @@ public class ButtonBuy : MonoBehaviour
     private void Choose()
     {
         PurchasingManager.Instance.OnPressDown(number);
-    }
-    
-    public int number;
-    public TextMeshProUGUI TextMeshProUgui;
-    public Button button;
-
-    void OnValidate()
-    {
-        TextMeshProUgui = GetComponentInChildren<TextMeshProUGUI>();
-        button = GetComponentInChildren<Button>();
     }
 }

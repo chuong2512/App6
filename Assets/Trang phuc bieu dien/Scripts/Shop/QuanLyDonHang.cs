@@ -9,7 +9,7 @@ public class QuanLyDonHang : Singleton<QuanLyDonHang>
     public Transform content;
     
     void Start()
-    {//////////////////////
+    {
       Refresh();
     }
 
@@ -17,15 +17,15 @@ public class QuanLyDonHang : Singleton<QuanLyDonHang>
     {
         foreach (Transform child in content) {
             GameObject.Destroy(child.gameObject);
-        }//////////////////////
+        }
         
         var products = GameDataManager.Instance.playerData.donHangs;
 
         for (int i = 0; i < products.Count; i++)
-        {//////////////////////
+        {
             var obj = Instantiate(sanPham, content);
 
-            obj.SetInfo(products[i]);//////////////////////
+            obj.SetInfo(products[i]);
         }
     }
 }

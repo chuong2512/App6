@@ -14,6 +14,13 @@ public class DangNhap : MonoBehaviour
     public Button dangNhap, dangKi;
 
     public HorizontalScrollSnap HorizontalScrollSnap;
+
+    void Start()
+    {
+        dangNhap.onClick.AddListener(Login);
+        dangKi.onClick.AddListener(Register);
+    }
+
     private void Register()
     {
         ThongTinDangNhap newInfo = new ThongTinDangNhap(tdnDangKi.text, mkDangKi.text);
@@ -30,22 +37,16 @@ public class DangNhap : MonoBehaviour
     {
         ThongTinDangNhap newInfo = new ThongTinDangNhap(tdn.text, mk.text);
 
-        if (GameDataManager.Instance.KiemTraDangNhap(newInfo, out string info))
+        /*if (GameDataManager.Instance.KiemTraDangNhap(newInfo, out string info))
         {
             gameObject.SetActive(false);
         }
         else
         {
             ToastManager.Instance.ShowToast(info);
-        }
+        }*/
+        gameObject.SetActive(false);
     }
-    void Start()
-    {
-        dangNhap.onClick.AddListener(Login);
-        dangKi.onClick.AddListener(Register);
-    }
-
- 
 }
 
 [Serializable]
