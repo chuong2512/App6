@@ -28,7 +28,7 @@ public class SanPhamUI : MonoBehaviour
         }
         else
         {
-            PurchasingManager.Instance.Show(ID);
+            UIManager.Instance.ShowSanPham(ID);
         }
     }
 

@@ -192,7 +192,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -308.70856}
+  m_AnchoredPosition: {x: 0, y: -83}
   m_SizeDelta: {x: 0, y: -617.4169}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1036063006129373945
@@ -335,7 +335,7 @@ MonoBehaviour:
   m_ChildAlignment: 1
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 661.9, y: 110.9}
+  m_CellSize: {x: 819.57, y: 130.8}
   m_Spacing: {x: 49.5, y: 46.4}
   m_Constraint: 1
   m_ConstraintCount: 1
@@ -560,7 +560,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -400}
+  m_AnchoredPosition: {x: 0, y: -1227}
   m_SizeDelta: {x: 1001.2974, y: 176.5803}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!222 &4309291659648272591
@@ -591,8 +591,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Gia h\u1EA1n \u01B0u \u0111\xE3i c\u1EE7a b\u1EA1n \u0111\u1EC3 mua nhi\u1EC1u
-    trang ph\u1EE5c h\u01A1n......"
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 661062368b9d93d4eb177222cdd54f5a, type: 2}
   m_sharedMaterial: {fileID: -3552317276621379475, guid: 661062368b9d93d4eb177222cdd54f5a, type: 2}
